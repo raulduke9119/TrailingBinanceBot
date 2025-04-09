@@ -1,0 +1,24 @@
+{
+  "name": "trailing-binance-bot",
+  "version": "1.0.0",
+  "description": "Ein Trailing-Profit-Maximierer Bot für Binance",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binance",
+    "trading",
+    "bot",
+    "trailing",
+    "profit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-binance-api": "^0.13.1",
+    "ws": "^8.17.1"
+  }
+}
